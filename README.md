@@ -5,7 +5,6 @@ This project implements a trigram language model in Python to classify essays ba
 ## Key Features
 - **N-gram Extraction**: Handles unigram, bigram, and trigram extraction with padding.
 - **Smoothed Probabilities**: Uses linear interpolation to smooth probabilities.
-- **Text Generation**: Generates random sentences based on trigram probabilities.
 - **Perplexity Calculation**: Measures how well the model predicts the test data.
 - **Essay Classification**: Classifies essays by comparing perplexity scores.
 
