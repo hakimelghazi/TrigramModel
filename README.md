@@ -1,6 +1,6 @@
 # Trigram Language Model for Essay Classification
 
-This project implements a trigram language model in Python to classify essays based on their perplexity. It works by training models on high and low proficiency essays and computing perplexity scores to predict the skill level of unseen essays.
+This project implements a trigram language model in Python to classify essays based on their perplexity. It works by training models on high and low proficiency TOEFL essays and computing perplexity scores to predict the skill level of unseen essays later on. The model reaches an 80% accuracy rate on determining whether the essay is a low or high-level one.
 
 ## Key Features
 - **N-gram Extraction**: Handles unigram, bigram, and trigram extraction with padding.
